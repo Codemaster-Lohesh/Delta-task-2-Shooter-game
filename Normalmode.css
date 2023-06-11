@@ -33,6 +33,10 @@ canvas {
 }
 
 #gameoverPopup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     color: black;
     font-family: 'Poppins',sans-serif;
     padding: 1rem;
